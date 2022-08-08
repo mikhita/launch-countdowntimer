@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background-image: url(./images/bg-stars.svg) !important;
+    background: #1D1E28;;
+    
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+h1{
+    font-family: Red Hat Text;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 6.136363506317139px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 300px;
+    margin-top: 142px;
+    margin-bottom: 54px;
+}
+.timeCont img{
+    width: 70px;
+    height: 67px;
+}
+.mainContent{
+    display: flex;
+    justify-content: space-between;
+    width:327px;
+
+}
+.textCont p{
+    font-family: Red Hat Text;
+    font-size: 7px;
+    font-weight: 700;
+    line-height: 9px;
+    letter-spacing: 2.9593749046325684px;
+    text-align: center;
+    color: #8385A9;
+
+}
+body .hills{
+    
+    max-width: -webkit-fill-available;
+    height: 418px;
+    padding: 0%;
+    margin: 0%;
+    position: relative;
+    bottom:-100px;
+
+}
+footer{
+    top:-130px;
+    width: 136px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.midleImageBorder .line{
+    width: 60px;
+}
+.midleImageBorder{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top:270px;
+}
