@@ -1,12 +1,12 @@
 
 
-var daysHead = document.querySelector('.days');
-var hourHead = document.querySelector('.hours');
-var minuteHead = document.querySelector('.minutes');
-var secondHead = document.querySelector('.seconds');
-var secondCard = document.querySelector('#second');
-var minuteCard = document.querySelector('#minute');
-var hourCard = document.querySelector('#hour');
+let daysHead = document.querySelector('.days');
+let hourHead = document.querySelector('.hours');
+let minuteHead = document.querySelector('.minutes');
+let secondHead = document.querySelector('.seconds');
+let secondCard = document.querySelector('#second');
+let minuteCard = document.querySelector('#minute');
+let hourCard = document.querySelector('#hour');
 
 
 let days;
@@ -17,21 +17,21 @@ let seconds;
 //
 
 console.log(seconds);
-var countDownDate = new Date ("Jan 1, 2023 00:00:00").getTime();
+let countDownDate = new Date ("Oct 23, 2022 00:00:00").getTime();
 
 console.log(countDownDate);
 
-var x = setInterval(function(){
+let x = setInterval(function(){
 
 //get today's date and time
 
 
-var now = new Date().getTime();
+let now = new Date().getTime();
 
 // find the distance between now and future dates
 
 
-var distance = countDownDate - now;
+let distance = countDownDate - now;
 
 // time calculations for days , hours, minutes , and seconds
 
@@ -70,18 +70,18 @@ secondHead.innerText = 'ED';
 },1000);
 
 
-var y = setInterval(function(){
+let y = setInterval(function(){
 
 
  secondCard.classList.toggle('active')
 
 }, 1000);
 
-var now = new Date().getTime();
+let now = new Date().getTime();
 
 // find the distance between now and the future date;
 
-var distance = countDownDate-now;
+let distance = countDownDate-now;
 
 //time calculations for days, hours, minutes and seconds
 
@@ -95,12 +95,12 @@ seconds= Math.floor((distance % (1000*60))/(1000));
 
 console.log(minuteCard);
 
-var a =  setInterval(function() {
+let a =  setInterval(function() {
     if (seconds<1) {minuteCard.classList.toggle('active')}
     
 }, 1000);
 
-var b =  setInterval(function() {
+let b =  setInterval(function() {
     if (minutes<1) {hourCard.classList.toggle('active')}
     
 }, 1000);
