@@ -1,6 +1,6 @@
-# Frontend Mentor - Single-page design portfolio solution
+# Frontend Mentor - launch-countdowntimer solution
 
-This is a solution to the [Single-page design portfolio challenge on Frontend Mentor](https://www.frontendmentor.io/). Frontend Mentor challenges help me improve my coding skills by building realistic projects. 
+This is a solution to the [launch-countdowntimer challenge on Frontend Mentor](https://www.frontendmentor.io/). Frontend Mentor challenges help me improve my coding skills by building realistic projects. 
 
 ## Table of contents
 
