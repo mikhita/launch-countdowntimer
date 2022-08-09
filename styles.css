@@ -76,3 +76,48 @@ footer{
     position: absolute;
     top:270px;
 }
+@media only screen and (min-width: 1440px){
+    h1{
+        min-width: 500px;
+    }
+    .timeCont img{
+        width:150px;
+        height: 150px;
+    }
+    .mainContent{
+        width: 690px;
+    }
+    .midleImageBorder{
+        width: 150px;
+        position:absolute;
+        top:285px;
+    }
+    .midleImageBorder .line{
+        width: 140px;
+    }
+    .textCont p{
+        font-family: Red Hat Text;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 19px;
+        letter-spacing: 5.918749809265137px;
+        text-align: center;
+
+    }
+    .minutes,.seconds,.hours,.days{
+        position: absolute;
+        font-family: Red Hat Text;
+        font-size: 80px;
+        font-weight: 700;
+        line-height: 71px;
+        letter-spacing: -2.4000000953674316px;
+        text-align: center;
+        color: red;
+        top:255px;
+        margin-left: 30px;
+        
+    }
+    .firstSvg:hover, .secondSvg:hover, .thirdSvg:hover{
+        fill:#FB5E84;
+    }
+}
