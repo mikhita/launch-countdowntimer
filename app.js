@@ -17,7 +17,7 @@ let seconds;
 //
 
 console.log(seconds);
-let countDownDate = new Date ("Oct 23, 2022 00:00:00").getTime();
+let countDownDate = new Date ("Oct 23, 2024 00:00:00").getTime();
 
 console.log(countDownDate);
 
